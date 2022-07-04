@@ -19,6 +19,7 @@
 		7193C3CD2870C2E500CBEBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7193C3CB2870C2E500CBEBF1 /* Main.storyboard */; };
 		7193C3CF2870C2E600CBEBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7193C3CE2870C2E600CBEBF1 /* Assets.xcassets */; };
 		7193C3D22870C2E600CBEBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7193C3D02870C2E600CBEBF1 /* LaunchScreen.storyboard */; };
+		71CC85CE2871D31400C62B10 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CC85CD2871D31400C62B10 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		7193C3CE2870C2E600CBEBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7193C3D12870C2E600CBEBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7193C3D32870C2E600CBEBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CC85CD2871D31400C62B10 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				7193C3C92870C2E500CBEBF1 /* ConversationsViewController.swift */,
-				7184ACAA28719232007D0D22 /* LoginViewController.swift */,
-				7184ACAC28719241007D0D22 /* RegisterViewController.swift */,
+				71CC85CC2871CD3000C62B10 /* Login */,
 				7184ACAE28719268007D0D22 /* PhotoViewerViewController.swift */,
 				7184ACB028719279007D0D22 /* VideoPlayerViewController.swift */,
 				7184ACB2287192A1007D0D22 /* NewConversationViewController.swift */,
@@ -91,6 +92,7 @@
 			children = (
 				7193C3C52870C2E500CBEBF1 /* AppDelegate.swift */,
 				7193C3C72870C2E500CBEBF1 /* SceneDelegate.swift */,
+				71CC85CD2871D31400C62B10 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -131,6 +133,15 @@
 				7193C3D32870C2E600CBEBF1 /* Info.plist */,
 			);
 			path = OgusChat;
+			sourceTree = "<group>";
+		};
+		71CC85CC2871CD3000C62B10 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7184ACAA28719232007D0D22 /* LoginViewController.swift */,
+				7184ACAC28719241007D0D22 /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				7184ACB3287192A1007D0D22 /* NewConversationViewController.swift in Sources */,
 				7193C3CA2870C2E500CBEBF1 /* ConversationsViewController.swift in Sources */,
 				7184ACB128719279007D0D22 /* VideoPlayerViewController.swift in Sources */,
+				71CC85CE2871D31400C62B10 /* Extensions.swift in Sources */,
 				7193C3C62870C2E500CBEBF1 /* AppDelegate.swift in Sources */,
 				7184ACB5287192B3007D0D22 /* ProfileViewController.swift in Sources */,
 				7193C3C82870C2E500CBEBF1 /* SceneDelegate.swift in Sources */,
