@@ -13,6 +13,7 @@
 		7138D060289178DF0059F55D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7138D05F289178DF0059F55D /* LoginView.swift */; };
 		7138D062289178E00059F55D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7138D061289178E00059F55D /* Assets.xcassets */; };
 		7138D065289178E00059F55D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7138D064289178E00059F55D /* Preview Assets.xcassets */; };
+		714D7E7728952CEA00CD3494 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714D7E7628952CEA00CD3494 /* ImagePicker.swift */; };
 		71B864D62894EEE20032EB0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71B864D52894EEE20032EB0F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		7138D05F289178DF0059F55D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7138D061289178E00059F55D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7138D064289178E00059F55D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		714D7E7628952CEA00CD3494 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		71B864D52894EEE20032EB0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 			children = (
 				7138D05D289178DF0059F55D /* OgusChatApp.swift */,
 				7138D05F289178DF0059F55D /* LoginView.swift */,
+				714D7E7628952CEA00CD3494 /* ImagePicker.swift */,
 				7138D061289178E00059F55D /* Assets.xcassets */,
 				71B864D52894EEE20032EB0F /* GoogleService-Info.plist */,
 				7138D063289178E00059F55D /* Preview Content */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714D7E7728952CEA00CD3494 /* ImagePicker.swift in Sources */,
 				7138D060289178DF0059F55D /* LoginView.swift in Sources */,
 				7138D05E289178DF0059F55D /* OgusChatApp.swift in Sources */,
 			);
