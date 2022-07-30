@@ -5,12 +5,17 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct LoginView: View {
     
     @State var isLoginMode = false
     @State var email = ""
     @State var password = ""
+    
+    init() {
+        FirebaseApp.configure()
+    }
     
     var body: some View {
         NavigationView {
@@ -63,13 +68,26 @@ struct LoginView: View {
             .background(Color(.init(white: 0, alpha: 0.05)) .ignoresSafeArea())
             .navigationTitle(isLoginMode ? "Log In" : "Create Account")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
     private func handleAction() {
         if isLoginMode {
             print("Should log into Firebase with existing credentials")
         } else {
+            createNewAccount()
             print("Register a new account inside of Firebase Auth and then store image in Storage somehow...")
+        }
+    }
+    
+    private func createNewAccount() {
+        Auth.auth().createUser(withEmail: email, password: password) {
+            result, err in
+            if let err = err {
+                print("Failed to create user:", err)
+                return
+            }
+            print("Succesfully created user: \(result?.user.uid ?? "")")
         }
     }
 }
